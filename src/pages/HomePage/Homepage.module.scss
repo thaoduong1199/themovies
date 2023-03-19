@@ -1,0 +1,51 @@
+.homePage {
+  padding: 0px 96px;
+
+  .banner {
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/uozb2VeD87YmhoUP1RrGWfzuCrr.jpg");
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 48px;
+
+    h2 {
+      margin-bottom: 5px;
+    }
+    h3 {
+      margin-bottom: 12px;
+    }
+    input {
+      border-radius: 50px;
+      border: 1px solid gray;
+      height: 46px;
+    }
+    .buttonSearch {
+      border: 1px solid gray;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 46px;
+      border-top-right-radius: 50px;
+      border-bottom-right-radius: 50px;
+      background: rgb(11, 89, 107);
+      background: linear-gradient(
+        14deg,
+        rgba(11, 89, 107, 1) 2%,
+        rgba(16, 166, 170, 1) 50%,
+        rgba(8, 107, 89, 1) 100%
+      );
+      color: white;
+      width: 120px;
+    }
+  }
+  .contentMovie {
+    padding-top: 30px;
+  }
+}

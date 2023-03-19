@@ -1,0 +1,14 @@
+.preview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &Right {
+    color: white;
+    margin-left: 24px;
+    width: 500px;
+    p {
+      font-weight: 800;
+      color: #f3f4f5;
+    }
+  }
+}
