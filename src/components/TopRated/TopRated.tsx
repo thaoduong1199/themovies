@@ -11,12 +11,12 @@ import { AppstoreOutlined, BarsOutlined } from "@ant-design/icons";
 
 const options = [
   {
-    value: "list",
-    icon: <BarsOutlined />,
-  },
-  {
     value: "kanban",
     icon: <AppstoreOutlined />,
+  },
+  {
+    value: "list",
+    icon: <BarsOutlined />,
   },
 ];
 

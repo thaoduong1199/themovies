@@ -9,18 +9,17 @@ import PlayingNowSkeleton from "./PlayingNowSkeleton";
 import Preview from "../Preview/Preview";
 import { Segmented } from "antd";
 import { AppstoreOutlined, BarsOutlined } from "@ant-design/icons";
-import { useResponsive } from "../../hook/isDesktop";
 
 const { Meta } = Card;
 
 const options = [
   {
-    value: "list",
-    icon: <BarsOutlined />,
-  },
-  {
     value: "kanban",
     icon: <AppstoreOutlined />,
+  },
+  {
+    value: "list",
+    icon: <BarsOutlined />,
   },
 ];
 
@@ -30,7 +29,6 @@ const PlayingNow = () => {
     (state: AppState) => state.playingnow
   );
   const getValue = options.map((item) => item.value);
-  const { isDesktop } = useResponsive();
 
   const [segment, setSegment] = useState(getValue[0]);
   const [visible, setVisible] = useState(false);
@@ -42,7 +40,6 @@ const PlayingNow = () => {
     vote_average: 0,
     overview: "",
   });
-  const [col, setCol] = useState(6);
   const listFilm = data.results;
 
   const handleOnClick = (index: number) => {
