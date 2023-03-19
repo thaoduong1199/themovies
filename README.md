@@ -26,16 +26,16 @@
 
 ---
 
-### Infomation
+# Infomation
 
-# Name: Thao Duong
+### Name: Thao Duong
 
-# Old: 24
+### Old: 24
 
-# Phone: 0375043862
+### Phone: 0375043862
 
-# Social: <facebook.com/thaoduong1199>
+### Social: <https://facebook.com/thaoduong1199/>
 
-# Live: Ho Chi Minh city
+### Lived: Ho Chi Minh city
 
 ---
