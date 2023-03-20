@@ -39,3 +39,10 @@
 ### Lived: Ho Chi Minh city
 
 ---
+---
+# Things need update to improve website
+
+### Transfer nextjs to use SSR
+### Use useMemo hook to create memory (help for things will run invidual)
+---
+### Remove ant design (too weight). Need create new component or resuse libary
